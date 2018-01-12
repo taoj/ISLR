@@ -1,0 +1,48 @@
+getwd()
+college = read.csv('./Documents/Data/College.csv')
+fix(college)
+q()
+college = read.cvs('/Users/taojing/Documents/github/ISLR/data/College.csv')
+college = read.csv('/Users/taojing/Documents/github/ISLR/data/College.csv')
+fix(college)
+rownames(college)=college[,1]
+fix(college)
+college=college[,-1]
+fix(college)
+summary(college)
+pairs(college)
+pairs(college[,1:10])
+plot(horsepower ,mpg)
+pairs(college[,1:10])
+boxplot(college$Outstate, college$Private)
+nrow(college)
+rep('No', 2)
+college$Top10perc >50
+4==8
+4==4
+E1 = college$Top10perc >50
+Elite=rep("No",nrow(college))
+Elite[college$Top10perc >50]="Yes"
+Elite
+Elite = as.factor(Elite)
+Elite
+college=data.frame(college ,Elite)
+college
+summary(Elite)
+summary(college)
+plot(college$Outstate, college$Elite)
+boxplot(college$Outstate, college$Elite)
+hist(college)
+hist(college$Private)
+hist(college$Personal)
+par(mfrow=c(2,2))
+hist(college$Personal)
++ par(mfrow=c(2,2))
++par(mfrow=c(2,2))
+source("/Users/taojing/Documents/github/ISLR/test.R")
+setwd('/Users/taojing/Documents/github/ISLR/')
+r -f test.R
+source("/Users/taojing/Documents/github/ISLR/test.R")
+4_7
+4+7
+source("/Users/taojing/Documents/github/ISLR/test.R")
