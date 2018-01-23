@@ -14,3 +14,6 @@ plot(auto$cylinders, auto$mpg)
 plot(auto$displacement, auto$mpg)
 plot(auto$horsepower, auto$mpg)
 plot(auto$weight, auto$mpg)
+
+# 2-10
+library(MASS)
